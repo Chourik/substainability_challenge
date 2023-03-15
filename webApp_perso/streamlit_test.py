@@ -28,6 +28,8 @@ PATH_RESULT_30 = 'modelling/results/results_stations_2030_part_3_1.csv'
 PATH_RESULT_40 = 'modelling/results/results_stations_2040_part_3_1.csv'
 
 file_list = os.listdir('/app/substainability_challenge/webApp_perso/data/E-tmja2019-shp/')
+PATH_BACKGROUND_NOIR = os.path.dirname(r"/app/substainability_challenge/webApp_perso/image/noir.png")
+PATH_LOGO = os.path.dirname(r"/app/substainability_challenge/webApp_perso/image/logo.png")
 
 class Parameters_part_1():
     avg_speed = 80  # km/h
@@ -53,11 +55,6 @@ class Params:
     PARAM = 0
 config = Config()
 p = Params()
-
-### Paths
-
-PATH_BACKGROUND_NOIR = r"image/noir.png"
-PATH_LOGO = r"image/logo.png"
 
 @st.cache(allow_output_mutation=True)
 def get_base64_of_bin_file(bin_file):
