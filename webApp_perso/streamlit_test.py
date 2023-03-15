@@ -56,8 +56,8 @@ p = Params()
 
 ### Paths
 
-PATH_BACKGROUND_NOIR = r"image/noir.png"
-PATH_LOGO = r"image/logo.png"
+PATH_BACKGROUND_NOIR = r"/image/noir.png"
+PATH_LOGO = r"/image/logo.png"
 
 @st.cache(allow_output_mutation=True)
 def get_base64_of_bin_file(bin_file):
