@@ -27,7 +27,7 @@ PATH3 = 'data/TCRD_076.xlsx'
 PATH_RESULT_30 = 'modelling/results/results_stations_2030_part_3_1.csv'
 PATH_RESULT_40 = 'modelling/results/results_stations_2040_part_3_1.csv'
 
-file_list = os.listdir('data/E-tmja2019-shp/')
+file_list = os.listdir('/app/substainability_challenge/webApp_perso/data/E-tmja2019-shp/')
 
 class Parameters_part_1():
     avg_speed = 80  # km/h
