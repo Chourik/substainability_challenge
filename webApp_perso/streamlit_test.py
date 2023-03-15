@@ -56,7 +56,7 @@ p = Params()
 
 ### Paths
 
-PATH_BACKGROUND_NOIR = r"noir.jpg"
+PATH_BACKGROUND_NOIR = r"noir.png"
 PATH_LOGO = r"logo.png"
 
 @st.cache(allow_output_mutation=True)
